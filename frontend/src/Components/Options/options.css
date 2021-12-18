@@ -1,0 +1,51 @@
+.options{
+    padding: 5%;
+}
+
+.deleteForm{
+    margin: 15%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 300px;
+}
+    
+    .deleteForm label{
+        font-weight: 600;
+    }
+    
+    .deleteForm button{
+        margin: auto;
+        margin-top: 20px;
+        border: none;
+    
+    }
+    
+    .deleteForm .deleteIcon{
+        width: 30px;
+        transform-origin: center;
+        transform: rotate(180deg);    
+        bottom: 0;
+        position: relative;
+        box-shadow: none;
+    }
+    
+    .deleteIcon:hover{
+        transform: rotate(180deg) scale(1.25);
+    }
+    
+    
+    @media screen and (min-width: 768px) {
+
+        .options {
+            padding: 15%;
+            padding-top: 2%;
+            width: 50%;
+            margin: auto;
+        }
+        .deleteForm{
+            margin: auto;
+            margin-top: 15%;
+        }
+      }
+    

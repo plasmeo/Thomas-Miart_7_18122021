@@ -1,0 +1,49 @@
+.Login{
+    padding: 5%;
+}
+
+.loginForm{
+margin: 15%;
+display: flex;
+flex-direction: column;
+gap: 15px;
+max-width: 300px;
+}
+
+.loginForm label{
+    font-weight: 600;
+}
+
+.loginForm button{
+    margin: auto;
+    margin-top: 20px;
+    border: none;
+
+}
+
+.logIcon{
+    width: 30px;
+    transform-origin: center;
+    transform: rotate(180deg);    
+}
+
+.logIcon:hover{
+    transform: rotate(180deg) scale(1.25);
+}
+
+
+
+@media screen and (min-width: 768px) {
+
+    .Login{
+        padding: 15%;
+        padding-top: 2%;
+        width: 50%;
+        margin: auto;
+    }
+
+    .loginForm{
+        margin: auto;
+        margin-top: 15%;
+    }
+  }

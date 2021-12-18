@@ -1,0 +1,42 @@
+.CreatePost{
+    padding: 5%;
+}
+
+.createForm{
+margin: 15%;
+display: flex;
+flex-direction: column;
+gap: 15px;
+}
+
+.createForm label{
+    font-weight: 600;
+}
+
+.createForm button{
+    margin: auto;
+    margin-top: 20px;
+    border: none;
+
+}
+
+.postIcon{
+    width: 30px;
+    transform-origin: center;
+    transform: rotate(180deg);    
+}
+
+.postIcon:hover{
+    transform: rotate(180deg) scale(1.25);
+}
+
+
+@media screen and (min-width: 768px) {
+
+    .CreatePost {
+        padding: 15%;
+        padding-top: 2%;
+        width: 50%;
+        margin: auto;
+    }
+  }
