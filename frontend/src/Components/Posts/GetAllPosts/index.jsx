@@ -35,19 +35,6 @@ function GetAllPosts() {
         
 }
 
-/*
-
-                {postsList.map((post, index) =>(
-          <Post
-            key={`${post.name}-${index}`}
-           title={post.title}
-           picture={post.picURL}
-           content={post.content}
-           likes={post.likes}
-           dislikes={post.dislikes}
-        />
-       ))}
-}*/
 
 
 export default GetAllPosts;

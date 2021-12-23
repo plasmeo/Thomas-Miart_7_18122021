@@ -21,22 +21,38 @@ font-weight: bold;
 padding: 5%;
 }
 
-.headerlinks{
+.headerlinks, header button{
     opacity: 0.85;
 }
 
-.headerlinks:hover{
+.headerlinks:hover, header button:hover{
     opacity: 1;
     transform-origin: left;
     transform: scale(1.2);
 }
 
-nav > a{
+nav > a, nav > button{
     color: white;
     text-decoration: none;
 }
 nav > a:visited{
     color: white;
+}
+header p{
+    color: white;
+    padding: 0;
+    margin: 0;
+    padding-left: 20px;
+}
+
+header button{
+    opacity: 0.85;
+    border: none;
+    background-color: transparent;
+    font-size: 0.875rem;
+    font-weight: bold;
+    margin: 0;
+    text-align: left;
 }
 
 @media screen and (min-width: 768px) {
@@ -53,5 +69,4 @@ nav > a:visited{
     .headerlinks:hover{
         transform-origin: center;
     }
-
   }

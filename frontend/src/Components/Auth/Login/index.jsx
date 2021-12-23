@@ -26,12 +26,13 @@ function sendData(data) {
     fetch('http://localhost:4200/api/auth/login', requestOptions)
         .then(response => response.json())
         .then(data => {
-            //console.log(data);
+            console.log(data);
             localStorage.setItem('token', data.token)
             localStorage.setItem('userID', data.userId)
-            localStorage.setItem('isAdmin', data.isAdmin)
-    });
-        
+            localStorage.setItem('isAdmin', data.isAdmin)  
+            localStorage.setItem('userEmail', data.userEmail) 
+            window.location.reload();
+          });        
 }
 
 function Login() {
